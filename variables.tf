@@ -10,6 +10,7 @@ variable "my-aws-account-public-key" {
 variable "spinnaker_amis" {
 	default = {
 		us-east-1 = "ami-8234fbef"
+		eu-west-1 = "ami-03188370"
 	}
 }
 
