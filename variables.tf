@@ -3,22 +3,13 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "aws_access_key" {
-  description = "AWS Access Key."
-}
-
-variable "aws_secret_key" {
-  description = "AWS Secret Key."
-}
-
-
 variable "my-aws-account-public-key" {
   description = "Public key to use for the my-aws-account-keypair"
 }
 
 variable "spinnaker_amis" {
 	default = {
-		us-east-1 = "ami-d05e75b8"
+		us-east-1 = "ami-8234fbef"
 	}
 }
 
